@@ -54,6 +54,11 @@
 			</plugin>
 		</plugins>
 	</build>
-
-
+	<distributionManagement>
+		<repository>
+			<id> releases </id>
+			<name>internal releases</name>
+			<url>file:///home/ankit/project</url>
+		</repository>
+	</distributionManagement>	
 </project>
